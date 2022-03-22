@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #112B3E;
+    width: 100%;
+    font-weight: bold;
+    padding: 17px 17px;
+    .logo {
+        
+        color: white;
+        text-decoration: none;
+        margin-left: 25px;
+        
+        position: relative;
+        sub {
+            position: absolute;
+            bottom: 11px
+        }
+    }
+    img {
+        width: 60px;
+    }
+}
